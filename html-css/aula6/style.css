@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+body{
+    font-family: Vollkorn;
+}
+
+.headerArticle{
+    text-align: center;
+}
+
+.menu ul {  
+    list-style-type: none;  
+    font-size: 15px;  
+    justify-content: center;
+    color: grey;
+    background-color: white;
+    padding: 10px;
+}  
+.menu li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+.menu li:hover{
+    background-color: black;
+    color: white;
+}
+main {
+    width: 100%;
+    max-width: 75ch;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.yellow {
+    color: yellow;
+}
+.italic{
+    font-style: italic;
+}
+.articleTxt{
+   
+ }
+.blackBox{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.boxImg {
+  width: 300px;
+  background-image: url(https://miro.medium.com/fit/c/112/112/1*ktVD8n-IgmDkDhGoBt8rxw.jpeg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
