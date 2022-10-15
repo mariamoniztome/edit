@@ -1,0 +1,22 @@
+.btn {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.btn-submit{
+    background-color: map-get($primary, "100");
+    color: $white;
+}
+
+.btn-support{
+    width: 232px;
+    height: 46px;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(94, 99, 102, 0.1); //mapa de cores
+    border-radius: 16px;
+}
+
+
